@@ -1,0 +1,3 @@
+include ':libsnackbar'
+include ':app'
+rootProject.name = "SnackBarReusableComponent"
