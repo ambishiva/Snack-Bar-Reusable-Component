@@ -1,2 +1,1 @@
-# Snack-Bar-Reusable-Component
-Snack Bar Wrapper Resusable Component
+[![](https://jitpack.io/v/ambishiva/Snack-Bar-Reusable-Component.svg)](https://jitpack.io/#ambishiva/Snack-Bar-Reusable-Component)
