@@ -29,6 +29,31 @@ Alert.with(this, "Snackbar with 20 seconds")
             .duration(20000).show()
 ```
 
+&nbsp;
+##### Snack bar with font
+```java
+ val hindiFont = Typeface.createFromAsset(assets, "hind_font.ttf")
+        val snackBarBuilder = Alert.with(this, "Snackbar with hindi font")
+            .textColor(android.R.color.holo_red_dark)
+            .font(hindiFont).show()
+```
+
+&nbsp;
+##### Snack bar with error view
+```java
+Alert.with(this, "Snackbar Error Message")
+            .textColor(R.color.white)
+            .error().show()
+```
+
+&nbsp;
+##### Snack bar with success view
+```java
+Alert.with(this, "Snackbar success Message")
+            .textColor(R.color.white)
+            .success().show()
+```
+
 
 
 

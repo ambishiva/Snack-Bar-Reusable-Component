@@ -40,8 +40,7 @@ class MainActivity : AppCompatActivity() {
     private fun showSnackBarForSuccessMessage() {
         val snackBarBuilder = Alert.with(this, "Custom Snackbar Error Message")
             .textColor(R.color.white)
-            .success()
-        snackBarBuilder.show()
+            .success().show()
     }
 
     private fun showSnackBarWithCustomTextColor() {
