@@ -2,7 +2,7 @@
 
 [![](https://jitpack.io/v/ambishiva/Snack-Bar-Reusable-Component.svg)](https://jitpack.io/#ambishiva/Snack-Bar-Reusable-Component)
 
-### This library is used to do changes in the snack as per the requirment for example change the backgroud color of snack bar , text color changes, show success view in case of success as well to change the font in snackbar
+### This library is used to do changes in the snack bar as per the requirment for example change the backgroud color of snack bar , text color changes, show success view in case of success as well to change the font in snackbar
 
 &nbsp;
 ### How to use
