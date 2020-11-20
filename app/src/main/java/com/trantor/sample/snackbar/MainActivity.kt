@@ -34,8 +34,7 @@ class MainActivity : AppCompatActivity() {
     private fun showSnackBarForErrorMessage() {
         val snackBarBuilder = Alert.with(this, "Custom Snackbar Error Message")
             .textColor(R.color.white)
-            .error()
-        snackBarBuilder.show()
+            .error().show()
     }
 
     private fun showSnackBarForSuccessMessage() {
@@ -47,22 +46,20 @@ class MainActivity : AppCompatActivity() {
 
     private fun showSnackBarWithCustomTextColor() {
         val snackBarBuilder = Alert.with(this, "Custom Snackbar with red text color")
-            .textColor(android.R.color.holo_red_dark)
-        snackBarBuilder.show()
+            .textColor(android.R.color.holo_red_dark).show()
     }
 
 
     private fun showSnackBarWithBackGroundColor() {
         val snackBarBuilder = Alert.with(this, "Custom Snackbar with red background")
-            .backgroundColor(android.R.color.holo_red_dark)
-        snackBarBuilder.show()
+            .backgroundColor(android.R.color.holo_red_dark).show()
     }
 
     private fun showSnackBarWithCustomDuration() {
         val duration = 20000
         val snackBarBuilder = Alert.with(this, "Custom Snackbar with 20 seconds")
             .textColor(android.R.color.holo_red_dark)
-            .duration(duration)
+            .duration(20000).show()
         snackBarBuilder.show()
     }
 
