@@ -1,10 +1,10 @@
-package com.trantor.sample.snackbar
+package com.geek.sample.snackbar
 
 import android.R
 import android.graphics.Typeface
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.trantor.lib.snackbar.Alert
+import com.geek.lib.snackbar.Alert
 
 
 class MainActivity : AppCompatActivity() {
@@ -34,36 +34,31 @@ class MainActivity : AppCompatActivity() {
     private fun showSnackBarForErrorMessage() {
         val snackBarBuilder = Alert.with(this, "Custom Snackbar Error Message")
             .textColor(R.color.white)
-            .error()
-        snackBarBuilder.show()
+            .error().show()
     }
 
     private fun showSnackBarForSuccessMessage() {
         val snackBarBuilder = Alert.with(this, "Custom Snackbar Error Message")
             .textColor(R.color.white)
-            .success()
-        snackBarBuilder.show()
+            .success().show()
     }
 
     private fun showSnackBarWithCustomTextColor() {
         val snackBarBuilder = Alert.with(this, "Custom Snackbar with red text color")
-            .textColor(android.R.color.holo_red_dark)
-        snackBarBuilder.show()
+            .textColor(android.R.color.holo_red_dark).show()
     }
 
 
     private fun showSnackBarWithBackGroundColor() {
         val snackBarBuilder = Alert.with(this, "Custom Snackbar with red background")
-            .backgroundColor(android.R.color.holo_red_dark)
-        snackBarBuilder.show()
+            .backgroundColor(android.R.color.holo_red_dark).show()
     }
 
     private fun showSnackBarWithCustomDuration() {
         val duration = 20000
         val snackBarBuilder = Alert.with(this, "Custom Snackbar with 20 seconds")
             .textColor(android.R.color.holo_red_dark)
-            .duration(duration)
-        snackBarBuilder.show()
+            .duration(20000).show()
     }
 
     private fun showSnackBarWithCustomFont() {

@@ -1,13 +1,12 @@
-package com.veriownglobal.chspanel.alert.snackbar
+package com.geek.lib.snackbar
 
+import android.R
 import android.content.Context
 import android.graphics.PixelFormat
 import android.graphics.Typeface
 import android.os.Build
 import android.os.IBinder
-import android.text.TextUtils
 import android.util.Log
-import android.view.ContextThemeWrapper
 import android.view.Gravity
 import android.view.View
 import android.view.ViewGroup
@@ -18,8 +17,6 @@ import androidx.core.content.ContextCompat
 import androidx.core.view.GravityCompat
 import androidx.core.view.ViewCompat
 import com.google.android.material.snackbar.Snackbar
-import com.trantor.lib.snackbar.Alert
-import com.trantor.lib.snackbar.SnackBarParam
 
 private const val TAG = "chs-snackbar-ui"
 
@@ -253,7 +250,7 @@ class SnackbarWrapper(private val snackBarParam: SnackBarParam) {
                     )
                 }
             }
-            snackBarParam.context?.let { setBackgroundColor(it.getColor(android.R.color.transparent)) }
+            snackBarParam.context?.let { setBackgroundColor(it.getColor(R.color.transparent)) }
         }
 
         // Below code is only required to set the bottom margin which is not working with snackbar?.view.setMargin()

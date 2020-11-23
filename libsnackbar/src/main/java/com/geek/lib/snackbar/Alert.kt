@@ -1,4 +1,4 @@
-package com.trantor.lib.snackbar
+package com.geek.lib.snackbar
 
 import android.app.Activity
 import android.content.Context
@@ -6,7 +6,6 @@ import android.graphics.Typeface
 import androidx.annotation.StringRes
 import com.google.android.material.snackbar.Snackbar
 import android.widget.TextView
-import com.veriownglobal.chspanel.alert.snackbar.SnackBarBuilder
 
 object Alert {
     /**

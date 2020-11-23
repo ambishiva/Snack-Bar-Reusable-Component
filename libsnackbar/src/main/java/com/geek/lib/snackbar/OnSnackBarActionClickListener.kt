@@ -1,4 +1,4 @@
-package com.trantor.lib.snackbar
+package com.geek.lib.snackbar
 
 import android.view.View
 

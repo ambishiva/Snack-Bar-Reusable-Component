@@ -1,13 +1,11 @@
-package com.trantor.lib.snackbar
+package com.geek.lib.snackbar
 
 import android.app.Activity
-import com.google.android.material.snackbar.Snackbar
 import android.view.View
 import android.view.ViewGroup
 import android.widget.FrameLayout
 import android.widget.TextView
-import com.trantor.lib.snackbar.AlertParam
-import com.trantor.lib.snackbar.OnSnackBarActionClickListener
+import com.google.android.material.snackbar.Snackbar
 
 class SnackBarParam : AlertParam() {
     internal var activity: Activity? = null

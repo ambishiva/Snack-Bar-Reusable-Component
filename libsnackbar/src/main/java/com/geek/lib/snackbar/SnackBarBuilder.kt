@@ -1,10 +1,9 @@
-package com.veriownglobal.chspanel.alert.snackbar
+package com.geek.lib.snackbar
 
 import android.app.Activity
 import android.content.pm.PackageManager
 import android.graphics.Typeface
 import android.provider.Settings
-import android.text.TextUtils
 import android.util.Log
 import android.view.View
 import android.view.ViewGroup
