@@ -2,7 +2,9 @@
 
 [![](https://jitpack.io/v/ambishiva/Snack-Bar-Reusable-Component.svg)](https://jitpack.io/#ambishiva/Snack-Bar-Reusable-Component)
 
-### This library is used to do changes in the snack bar as per the requirment for example change the backgroud color of snack bar , text color changes, show success view in case of success as well to change the font in snackbar
+### This library can be used/intergrate in a project as a wrapper for alert messages so that if required to change snackbar to any other lib then can be changed easily without affecting or changes on UI layer.
+&nbsp;
+### Dev can use this lib as a bridge between Google snackbar and their application. Flexible to adobt new changes from Snackbar library so that core dev team should focus on delivering the things instead of thinking about library updation or learn/adopt new changes.
 
 &nbsp;
 ### How to use
