@@ -14,7 +14,6 @@ import androidx.annotation.NonNull
 import androidx.annotation.StringRes
 import androidx.core.content.ContextCompat
 import com.google.android.material.snackbar.Snackbar
-import com.trantor.lib.snackbar.*
 
 private const val TAG = "chs-snackbar-ui"
 
