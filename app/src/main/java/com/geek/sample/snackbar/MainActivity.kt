@@ -11,8 +11,8 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_list_item)
-        showSnackBarWithBackGroundColor()
-//        showSnackBarWithCustomTextColor()
+        //showSnackBarWithBackGroundColor()
+        showSnackBarWithCustomTextColor()
 //        showSnackBarWithCustomDuration()
 //        showSnackBarWithCustomFont()
 //        showSnackBarForErrorMessage()
